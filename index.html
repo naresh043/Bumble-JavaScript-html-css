@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #div1,
+      #div2,
+      #div3,
+      #div4,
+      #div5 {
+        background-color: bisque;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 20px;
+      }
+      #parsonal{
+        width: 95vw;
+        height: 95vh;
+      }
+      #f1,
+      #f2,
+      #f3,
+      #f4,
+      #f5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        gap: 10px;
+      }
+      #div1 {
+        display: block;
+        /* border: 2px solid red; */
+      }
+
+      #div2,
+      #div3,
+      #div4,
+      #div5 {
+        display: none;
+      }
+      /* page 2 */
+      #divb1,
+      #divb2,
+      #divb3,
+      #divb4,
+      #divb5 {
+        background-color: bisque;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 20px;
+      }
+  
+      #fb1,
+      #fb2,
+      #fb3,
+      #fb4,
+      #fb5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        gap: 10px;
+      }
+     #divb1,
+      #divb2,
+      #divb3,
+      #divb4,
+      #divb5{
+        display: none;
+      }
+      /* page3 */
+      #divf1,
+      #divf2,
+      #divf3,
+      #divf4,
+      #divf5 {
+        background-color: bisque;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 20px;
+      }
+  
+      #ff1,
+      #ff2,
+      #ff3,
+      #ff4,
+      #ff5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        gap: 10px;
+      }
+      #divf1,
+      #divf2,
+      #divf3,
+      #divf4,
+      #divf5{
+        display: none;
+      }
+      
+     
+    </style>
+  </head>
+    <button id="pars">parsonal Info</button>
+    <button id="business">Business info</button>
+    <button id="btnfav">FAvarates</button>
+    <div id="parsonal">
+      <div id="div1">
+        <form action="" id="f1">
+          <label for="">Enter your Name</label>
+          <input type="text" />
+          <input type="submit" value="Submit Next" />
+        </form>
+      </div>
+      <div id="div2">
+        <form action="" id="f2">
+          <label for="">Enter UR Pet Name</label>
+          <input type="text" />
+          <input type="submit" value="Submit Next" />
+        </form>
+      </div>
+      <div id="div3">
+        <form action="" id="f3">
+          <label for="">Email address</label>
+          <input type="text" />
+          <input type="submit" value="Submit Next" />
+        </form>
+      </div>
+      <div id="div4">
+        <form action="" id="f4">
+          <label for="">Date of birth and age</label>
+          <input type="text" />
+          <input type="submit" value="Submit Next" />
+        </form>
+      </div>
+      <div id="div5">
+        <form action="" id="f5">
+          <label for="">Gender</label>
+          <label for=""
+            >Male<input type="radio" id="male" name="Gender"
+          /></label>
+          <label for=""
+            >FeMale<input type="radio" id="female" name="Gender"
+          /></label>
+          <input type="submit" value="Submit Next" />
+        </form>
+      </div>
+    </div>
+
+    <div id="busi">
+        <div id="divb1">
+          <form action="" id="fb1">
+            <label for="">What is ur current working Compny</label>
+            <input type="text" />
+            <input type="submit" value="Submit Next" />
+          </form>
+        </div>
+        <div id="divb2">
+          <form action="" id="fb2">
+            <label for="">Wt is is current CTC</label>
+            <input type="text" />
+            <input type="submit" value="Submit Next" />
+          </form>
+        </div>
+        <div id="divb3">
+          <form action="" id="fb3">
+            <label for="">Where to located</label>
+            <input type="text" />
+            <input type="submit" value="Submit Next" />
+          </form>
+        </div>
+        <div id="divb4">
+          <form action="" id="fb4">
+            <label for="">Date of joing to JOB</label>
+            <input type="text" />
+            <input type="submit" value="Submit Next" />
+          </form>
+        </div>
+        <div id="divb5">
+          <form action="" id="fb5">
+            <label for="">ARE YOU RELOCATED</label>
+            <label for=""
+              >Yes<input type="radio" id="yes" name="conform"
+            /></label>
+            <label for=""
+              >No<input type="radio" id="no" name="conform"
+            /></label>
+            <input type="submit" value="Submit Next" />
+          </form>
+        </div>
+      </div>
+
+      <div id="dfav">
+      <div id="divf1">
+        <form action="" id="ff1">
+          <label for="">Which is your favourite food</label>
+          <label for=""
+            >idly<input type="radio" id="idly" name="food"
+          /></label>
+          <label for=""
+            >dhosa<input type="radio" id="dhosa" name="food"
+          /></label>
+          <label for=""
+            >Bisi bilebathu<input type="radio" id="bisi" name="food"
+          /></label>
+          <input type="submit" value="Submit Next" />
+        </form>
+      </div>
+      <div id="divf2">
+        <form action="" id="ff2">
+          <label for="">What is your favourite color</label>
+        <input type="color" id="color">
+        <input type="submit" value="Submit Next" />
+        </form>
+      </div>
+      <div id="divf3">
+        <form action="" id="ff3">
+          <label for="">Who is your favourite hero</label>
+          <input type="text" />
+          <input type="submit" value="Submit Next" />
+        </form>
+      </div>
+      <div id="divf4">
+        <form action="" id="ff4">
+          <label for="">Which is your favourite movie</label>
+          <input type="text" />
+          <input type="submit" value="Submit Next" />
+        </form>
+      </div>
+
+
+
+
+      </div>
+    <script>
+      parsonalinfo = [];
+      var parsonalbtn = document.getElementById("pars"); // Fix ID for personal button
+      var businessbtn = document.getElementById("business");
+      var favbtn = document.getElementById("btnfav");
+
+  // Show personal info and hide business info when clicking on "Personal Info"
+  parsonalbtn.addEventListener("click", function () {
+    var divbus = document.getElementById("busi");
+    divbus.style.display = "none";
+    var divfav = document.getElementById("dfav");
+    divfav.style.display = "none";
+    var divparson = document.getElementById("parsonal");
+    divparson.style.display = "block";
+  });
+
+  // Show business info and hide personal info when clicking on "Business Info"
+  businessbtn.addEventListener("click", function () {
+    var divparson = document.getElementById("parsonal");
+    divparson.style.display = "none";
+    var divfav = document.getElementById("dfav");
+    divfav.style.display = "none";
+    var divbus = document.getElementById("busi");
+    divbus.style.display = "block";
+    var div1 = document.getElementById("divb1");
+    div1.style.display = "block";
+  });
+  
+  favbtn.addEventListener("click", function () {
+    var divparson = document.getElementById("parsonal");
+    divparson.style.display = "none";
+    var divbus = document.getElementById("busi");
+    divbus.style.display = "none";
+    var divfav = document.getElementById("dfav");
+    divfav.style.display = "block";
+    var fdiv1 = document.getElementById("divf1");
+    fdiv1.style.display = "block";
+  });
+// forms events listers 
+      var fromm = document.forms;
+      fromm[0].addEventListener("submit", (e) => {
+        e.preventDefault();
+        console.log(e.target[0].value);
+        obj = {
+          name: e.target[0].value,
+        };
+        console.log(obj);
+        parsonalinfo.push(obj);
+        console.log(parsonalinfo);
+
+        var divp1 = document.getElementById("div1");
+        divp1.style.display = "none";
+        var divp2 = document.getElementById("div2");
+        divp2.style.display = "block";
+      });
+      fromm[1].addEventListener("submit", (e) => {
+        e.preventDefault();
+        obj = {
+          petname: e.target[0].value,
+        };
+        parsonalinfo.push(obj);
+
+        var divp2 = document.getElementById("div2");
+        divp2.style.display = "none";
+        var divp3 = document.getElementById("div3");
+        divp3.style.display = "block";
+      });
+      fromm[2].addEventListener("submit", (e) => {
+        e.preventDefault();
+        console.log(e.target[0].value);
+        obj = {
+          email: e.target[0].value,
+        };
+        parsonalinfo.push(obj);
+        var divp3 = document.getElementById("div3");
+        divp3.style.display = "none";
+        var divp4 = document.getElementById("div4");
+        divp4.style.display = "block";
+      });
+      fromm[3].addEventListener("submit", (e) => {
+        e.preventDefault();
+        console.log(e.target[0].value);
+        obj = {
+          dob_age: e.target[0].value,
+        };
+        parsonalinfo.push(obj);
+        var divp4 = document.getElementById("div4");
+        divp4.style.display = "none";
+        var divp4 = document.getElementById("div5");
+        divp4.style.display = "block";
+      });
+      fromm[4].addEventListener("submit", (e) => {
+        e.preventDefault();
+        var malee = document.getElementById("male").checked;
+        var femalee = document.getElementById("female").checked;
+        console.log(malee);
+        console.log(femalee);
+        if (malee) {
+          obj = {
+            Gemnde: "male",
+          };
+          parsonalinfo.push(obj);
+        }
+        if (femalee) {
+          obj = {
+            Gemnde: "female",
+          };
+          parsonalinfo.push(obj);
+        }
+        var divp5 = document.getElementById("div5");
+        divp5.style.display = "none";
+        var h1p=document.createElement("h1")
+        localStorage.setItem("parsonal", JSON.stringify(parsonalinfo));
+        // window.location.assign("./bsn.html");
+      });
+      // page2
+        var bform1=document.getElementById("fb1");
+        bform1.addEventListener("submit", (e) => {
+          e.preventDefault();
+          // console.log(e.target[0].value);
+        obj = {
+          wherework: e.target[0].value,
+        };
+        parsonalinfo.push(obj);
+        // console.log(obj);
+        // console.log(parsonalinfo);
+        var div1 = document.getElementById("divb1");
+        div1.style.display = "none";
+        var div1 = document.getElementById("divb2");
+        div1.style.display = "block";
+        });
+        var bform2=document.getElementById("fb2");
+        bform2.addEventListener("submit", (e) => {
+          e.preventDefault();
+          // console.log(e.target[0].value);
+        obj = {
+          ctc: e.target[0].value,
+        };
+        parsonalinfo.push(obj);
+        var div1 = document.getElementById("divb2");
+        div1.style.display = "none";
+        var div1 = document.getElementById("divb3");
+        div1.style.display = "block";
+        });
+        var bform3=document.getElementById("fb3");
+        bform3.addEventListener("submit", (e) => {
+          e.preventDefault();
+          obj = {
+          located: e.target[0].value,
+        };
+        parsonalinfo.push(obj);
+        var div1 = document.getElementById("divb3");
+        div1.style.display = "none";
+        var div1 = document.getElementById("divb4");
+        div1.style.display = "block";
+        });
+        var bform4=document.getElementById("fb4");
+        bform4.addEventListener("submit", (e) => {
+          e.preventDefault();
+          obj = {
+          doj: e.target[0].value,
+        };
+        parsonalinfo.push(obj);
+        var div1 = document.getElementById("divb4");
+        div1.style.display = "none";
+        var div1 = document.getElementById("divb5");
+        div1.style.display = "block";
+        });
+
+        var bform5=document.getElementById("fb5");
+        bform5.addEventListener("submit", (e) => {
+          e.preventDefault();
+          var yes = document.getElementById("yes").checked;
+        var no = document.getElementById("no").checked;
+        if (yes) {
+          obj = {
+            relocated: "yes",
+          };
+          parsonalinfo.push(obj);
+        }
+        if (no) {
+          obj = {
+            relocated: "no",
+          };
+          parsonalinfo.push(obj);
+        }
+        var div1 = document.getElementById("divb5");
+        div1.style.display = "none";
+       var h1=document.createElement("h1")
+        });
+
+        // page 3
+      var fform1=document.getElementById("ff1");
+      fform1.addEventListener("submit", (e) => {
+          e.preventDefault();
+          var idly = document.getElementById("idly").checked;
+        var dhosa = document.getElementById("dhosa").checked;
+        var bisi = document.getElementById("bisi").checked;
+
+        if (idly) {
+          obj = {
+            favfood: "idly",
+          };
+          parsonalinfo.push(obj);
+        }
+        if (dhosa) {
+          obj = {
+            favfood: "dhosa",
+          };
+          parsonalinfo.push(obj);
+        }
+        if (bisi) {
+          obj = {
+            favfood: "bisi bilebathu",
+          };
+          parsonalinfo.push(obj);
+        }
+        //  console.log(parsonalinfo)
+        var fdiv1 = document.getElementById("divf1");
+        fdiv1.style.display = "none";
+        var fdiv2 = document.getElementById("divf2");
+        fdiv2.style.display = "block";
+        });
+
+        var fform2=document.getElementById("ff2");
+        fform2.addEventListener("submit", (e) => {
+          e.preventDefault();
+        var color = document.getElementById("color").checked;
+          obj = {
+          color: e.target[0].value,
+        };
+        console.log(obj);
+        parsonalinfo.push(obj);
+        var fdiv1 = document.getElementById("divf2");
+        fdiv1.style.display = "none";
+        var fdiv2 = document.getElementById("divf3");
+        fdiv2.style.display = "block";
+        });
+        
+        var fform3=document.getElementById("ff3");
+        fform3.addEventListener("submit", (e) => {
+          e.preventDefault();
+          obj = {
+          fhero: e.target[0].value,
+        };
+        console.log(obj)
+        parsonalinfo.push(obj);
+        var fdiv3 = document.getElementById("divf3");
+        fdiv3.style.display = "none";
+        var fdiv4 = document.getElementById("divf4");
+        fdiv4.style.display = "block";
+        });
+
+        var fform4=document.getElementById("ff4");
+        fform4.addEventListener("submit", (e) => {
+          e.preventDefault();
+          obj = {
+          fmovie: e.target[0].value,
+        };
+        console.log(obj)
+        parsonalinfo.push(obj);
+        var fdiv3 = document.getElementById("divf4");
+        fdiv3.style.display = "none";
+        localStorage.setItem("Information",JSON.stringify(parsonalinfo))
+        window.location.assign("./bsn.html")
+        });
+
+
+
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Candidte Information </h1>
+
+
+    <script>
+        var info = JSON.parse(localStorage.getItem("Information"));
+        console.log(info);
+        console.log(info[0]["name"]);
+    
+        let name = document.createElement("h1");
+        name.innerText = `Name of the candidate : ${info[0]["name"]}`; 
+
+        let petname = document.createElement("h1");
+        petname.innerText = `Name of the Ur pet : ${info[1]["petname"]}`; 
+
+        let email = document.createElement("h1");
+        email.innerText = `Your email id : ${info[2]["email"]}`; 
+
+        let dob = document.createElement("h1");
+        dob.innerText = `Date of birth: ${info[3]["dob_age"]}`; 
+
+        let Gender = document.createElement("h1");
+        Gender.innerText = `Gender : ${info[4]["Gemnde"]}`; 
+
+        let wherework = document.createElement("h1");
+        wherework.innerText = `Work company Name: ${info[5]["wherework"]}`; 
+
+        let ctc = document.createElement("h1");
+        ctc.innerText = `Current ctc : ${info[6]["ctc"]}`; 
+
+        
+        let located = document.createElement("h1");
+        located.innerText = `Where to located : ${info[7]["located"]}`; 
+
+        let doj = document.createElement("h1");
+        doj.innerText = `Date of the joining: ${info[8]["doj"]}`;
+
+        let relocated = document.createElement("h1");
+        relocated.innerText = `Are you relocated : ${info[9]["relocated"]}`; 
+
+        let favfood = document.createElement("h1");
+        favfood.innerText = `Fav food: ${info[10]["favfood"]}`; 
+
+        let color = document.createElement("h1");
+        color.innerText = `Fav color : ${info[11]["color"]}`; 
+
+        let fhero = document.createElement("h1");
+        fhero.innerText = `Fav hero: ${info[12]["fhero"]}`; 
+
+        let fmovie = document.createElement("h1");
+        fmovie.innerText = `Fav movie: ${info[13]["fmovie"]}`;
+
+
+     
+
+
+
+
+
+
+
+
+
+
+        document.body.append(name,petname,email,dob,Gender,wherework,ctc,located,doj,relocated,favfood,color,fhero,fmovie);
+    </script>
+    
+</body>
+</html>
